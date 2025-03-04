@@ -25,6 +25,7 @@ func main() {
 
 	// is used to add a comment in golang
 	//fmt.Println("Future Value:", futureValue)
-	fmt.Printf("Future Value: %v\nFuture Value (adjusted for Inflation): %v", futureValue, futureRealValue)
+	//the number after . tells you how many decimals you need after the .
+	fmt.Printf("Future Value: %.2f\nFuture Value (adjusted for Inflation): %.2f", futureValue, futureRealValue)
 	//fmt.Println("Future Value (adjusted for Inflation):", futureRealValue)
 }
