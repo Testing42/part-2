@@ -34,4 +34,9 @@ func main() {
 	//the number after . tells you how many decimals you need after the .
 	//fmt.Printf("Future Value: %.2f\nFuture Value (adjusted for Inflation): %.2f", futureValue, futureRealValue)
 	//fmt.Println("Future Value (adjusted for Inflation):", futureRealValue)
+
+	//to have a multi line sting use ` ` to close the string example below \n isn't needed
+	fmt.Printf(`Future Value: %.2f
+	
+	Future Value (adjusted for Inflation): %.2f`, futureValue, futureRealValue)
 }
